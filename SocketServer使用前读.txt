@@ -1,0 +1,15 @@
+下载  MLZZF.dll  导入到自己的项目里（注意，此dll不支持unity、低于.NET Framework4）
+
+使用Tcp服务请引用：using MLZZF.SocketServer;
+
+创建Tcp实例：TcpServer_MLZZF tcpServer = new TcpServer_MLZZF(IP, 端口, listen数量);
+
+开启Tcp服务：tcpServer.Start();
+
+应答客户端委托：tcpServer.onAccept
+
+客户端发来消息委托：tcpServer.onReceive
+
+客户端断开连接委托：tcpServer.onExit
+
+详情请查看SocketServer案例!!!
