@@ -7,4 +7,3 @@
 
 下载  MLZZF.dll  导入到自己的项目里（注意，此dll不支持unity、低于.NET Framework4）
 
-更多详情请下载TcpServerPro压缩包查看案例。
